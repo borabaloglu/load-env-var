@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/borabaloglu/load-env-var/issues"
   },
-  "main": "lib/index.js"
+  "main": "lib/index.js",
+  "dependencies": {
+    "chalk": "^4.1.0"
+  }
 }
