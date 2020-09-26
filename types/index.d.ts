@@ -1,11 +1,11 @@
 declare interface LoadNumberOptions {
   allowNaN?: boolean;
   allowInfinity?: boolean;
-  defaultValue: number;
+  defaultValue?: number;
 }
 
 declare interface LoadStringOptions {
-  defaultValue: number;
+  defaultValue?: number;
 }
 
 declare module "load-env-var" {
