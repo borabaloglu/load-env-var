@@ -5,7 +5,7 @@ declare interface LoadNumberOptions {
 }
 
 declare interface LoadStringOptions {
-  defaultValue?: number;
+  defaultValue?: string;
 }
 
 declare module "load-env-var" {
