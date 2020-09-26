@@ -27,5 +27,8 @@
   "types": "types",
   "dependencies": {
     "chalk": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.11.2"
   }
 }
