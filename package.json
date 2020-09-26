@@ -1,0 +1,27 @@
+{
+  "name": "load-env-var",
+  "version": "0.0.1",
+  "description": "A helper module for loading environment variables",
+  "author": "Bora Baloglu <baloglub@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "helper",
+    ".env",
+    "env",
+    "environment",
+    "variables",
+    "config",
+    "settings",
+    "loader",
+    "load"
+  ],
+  "homepage": "https://github.com/borabaloglu/load-env-var#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/borabaloglu/load-env-var.git"
+  },
+  "bugs": {
+    "url": "https://github.com/borabaloglu/load-env-var/issues"
+  },
+  "main": "lib/index.js"
+}
