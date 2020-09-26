@@ -8,7 +8,7 @@
 $ npm i load-env-var
 ```
 
-### Usage
+### Usage
 
 ##### Import
 
@@ -35,5 +35,14 @@ envLoader.loadNumber("PORT", {
 ```js
 envLoader.loadString("JWT_SERCRET", {
   defaultValue: "thiskeyissecret",
+});
+```
+
+##### Load Array
+
+```js
+envLoader.loadString("NAMES", {
+  type: "string",
+  delimiter: ",",
 });
 ```
