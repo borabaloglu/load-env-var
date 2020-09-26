@@ -24,6 +24,7 @@
     "url": "https://github.com/borabaloglu/load-env-var/issues"
   },
   "main": "lib/index.js",
+  "types": "types",
   "dependencies": {
     "chalk": "^4.1.0"
   }
