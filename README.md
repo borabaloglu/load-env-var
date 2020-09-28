@@ -41,8 +41,16 @@ envLoader.loadString("JWT_SERCRET", {
 ##### Load Array
 
 ```js
-envLoader.loadString("NAMES", {
+envLoader.loadArray("NAMES", {
   type: "string",
   delimiter: ",",
+});
+```
+
+##### Load Boolean
+
+```js
+envLoader.loadBoolean("ALLOW_HTTP", {
+  defaultValue: false,
 });
 ```
