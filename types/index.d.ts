@@ -15,8 +15,16 @@ declare interface LoadArrayOptions {
   delimiter?: string;
 }
 
+declare interface LoadBooleanOptions {
+  defaultValue?: boolean;
+}
+
 declare module "load-env-var" {
   export function loadNumber(name: string, options?: LoadNumberOptions): number;
   export function loadString(name: string, options?: LoadStringOptions): string;
   export function loadArray(name: string, options?: LoadArrayOptions): any[];
+  export function loadBoolean(
+    name: string,
+    options?: LoadBooleanOptions
+  ): boolean;
 }
